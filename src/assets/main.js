@@ -9,7 +9,7 @@ $(function() {
           html += "<div class=\"course\">\n" +
                   "\t<h3>" + course.title + "</h3>\n" +
                   "\t<img src=\"" + course.badge + "\">\n" +
-                  "\t<a href=\"" + course.url + "\" target=\"_blank\" class=\"btn btn-primary\">See Course<\a>\n" +
+                  "\t<a href=\"" + course.url + "\" target=\"_blank\" class=\"btn btn-primary\">See Course</a>\n" +
                   "</div>\n";
         }, this);
         $("#badges").append($(html));
